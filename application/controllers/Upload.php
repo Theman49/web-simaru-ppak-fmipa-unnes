@@ -14,9 +14,9 @@ class Upload extends CI_Controller {
     public function __construct()
     {
         parent::__construct();
-        $this->id_key= 'b0wr0e2cdjgfa5u' ;
-        $this->app_secret = '91yxo9ftp7rs1qi';
-        $this->token = '70RpwItT-AwAAAAAAAAAAU6ix0vK9DpyHhgzzNzKYoHIYpcH0aBO5TWPn697iyXU';
+        $this->id_key= '' ;
+        $this->app_secret = '';
+        $this->token = '';
     }
 
 	public function index()
